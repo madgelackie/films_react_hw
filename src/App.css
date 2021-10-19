@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+#header {
+  padding-left: 10px;
+}
+
+#line-break {
+  width: 95%;
+}
+
+#button {
+  height: 4rem;
+  font-size: larger;
+  margin: 10px;
+  border: ;
+}
+
+
+#film-list {
+  padding: 10px;
+}
+
+#film-url {
+  text-decoration: none;
+}
+
+#film-url:hover {
+  color:rgb(126, 125, 125)
+}
+
+#film-url:visited {
+  text-decoration: none;
+}
+

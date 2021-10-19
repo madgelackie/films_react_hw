@@ -3,7 +3,9 @@ import React from 'react';
 const Film = ({name, url}) => {
     return (
         <>
-            <li><a href={url}>{name}</a></li>
+            <li id="film-list">
+            <a id="film-url" href={url}>{name}</a>
+            </li>
         </>
     )
 }
