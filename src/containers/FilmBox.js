@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import FilmList from '../components/FilmList';
-// import Button from '../components/Button';
+import Button from '../components/Button';
 
 const FilmBox = () => {
     const [films, setFilms] = useState(
@@ -38,6 +38,7 @@ const FilmBox = () => {
         <hr></hr>
         <FilmList films={films}/>
         <hr></hr>
+        <Button />
         </>
     )
 
